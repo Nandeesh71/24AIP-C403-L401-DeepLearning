@@ -1,3 +1,22 @@
+# AIM : 
+
+# To perform basic image processing operations using Python and OpenCV and analyze the effects of histogram equalization, edge detection, thresholding, image augmentation, and morphological operations.
+
+# Algorithm:
+# 1. Import the required libraries and load the input image.
+# 2. Apply histogram equalization to enhance the image contrast.
+# 3. Compute and display the histograms of the original and equalized images.
+# 4. Apply Gaussian Blur and perform Canny edge detection.
+# 5. Perform image augmentation using rotation, cropping, resizing, and horizontal flipping.
+# 6. Convert the image into a binary image using thresholding.
+# 7. Apply erosion and dilation using a structuring kernel.
+# 8. Display the original and all processed images for comparison.
+
+# Result :
+# Basic image processing operations were successfully implemented using Python and OpenCV, producing the expected enhanced and transformed images.
+
+
+
 from matplotlib import pyplot as plt
 import cv2
 import numpy as np

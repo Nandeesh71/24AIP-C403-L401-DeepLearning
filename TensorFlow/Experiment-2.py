@@ -1,3 +1,32 @@
+# Aim :
+
+# To build and train an Artificial Neural Network (ANN) using TensorFlow and Keras for handwritten digit classification on the MNIST dataset.
+# To evaluate the model's performance using accuracy, loss, and training-validation curves.
+
+# Algorithm :
+
+# 1. Import the required TensorFlow, Keras, and Matplotlib libraries.
+
+# 2. Load the MNIST dataset and normalize the pixel values.
+
+# 3. Create a Sequential ANN model with a Flatten layer, one hidden Dense layer, and an output Dense layer.
+
+# 4. Compile the model using the Adam optimizer and sparse categorical cross-entropy loss function.
+
+# 5. Train the model using the training dataset with validation data for multiple epochs.
+
+# 6. Evaluate the trained model on the test dataset to obtain loss and accuracy.
+
+# 7. Plot the training and validation loss curves.
+
+# 8. Plot the training and validation accuracy curves and analyze the model performance.
+
+
+# Result:
+
+# The ANN model was successfully trained on the MNIST dataset and achieved high accuracy in handwritten digit classification. The loss and accuracy curves indicated effective learning and good model performance.
+
+
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten

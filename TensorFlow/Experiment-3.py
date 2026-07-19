@@ -1,3 +1,29 @@
+# ## Aim
+
+# To build and train a CNN using TensorFlow and Keras for handwritten character classification on the EMNIST Balanced dataset, and evaluate its performance using accuracy, loss curves, and sample predictions.
+
+# ## Algorithm
+# 1. Import the required libraries — `idx2numpy`, NumPy, Matplotlib, TensorFlow, and Keras layers.
+
+# 2. Load the EMNIST Balanced dataset from local IDX ubyte files, then normalize pixel values and reshape images to add a channel dimension.
+
+# 3. Build a Sequential CNN model with two Convolution + MaxPooling blocks, a Flatten layer, a hidden Dense layer with Dropout, and an output Dense layer (47 units, softmax).
+
+# 4. Compile the model using the Adam optimizer and sparse categorical cross-entropy loss function.
+
+# 5. Train the model on the training dataset with a validation split for multiple epochs.
+
+# 6. Evaluate the trained model on the test dataset to obtain loss and accuracy.
+
+# 7. Plot the training and validation accuracy and loss curves to analyze model performance.
+
+# 8. Load the character mapping file, predict a sample test image's class, and display the actual character, predicted character, and confidence score.
+
+# ## Result
+
+# The CNN model was successfully trained on the EMNIST Balanced dataset and achieved good accuracy in classifying handwritten characters across 47 classes, with the loss and accuracy curves confirming effective learning.
+
+
 import idx2numpy
 import numpy as np
 import matplotlib.pyplot as plt
